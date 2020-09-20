@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html >
+<head>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+  <script src="jQuery.js"></script>
+   <script src='jquery.min.js'></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<nav>
+      <a href="index.html"><img src="2.png" class="logo"></a>
+      <a href="index.html">Home</a>
+      <a href="index.html#start">Starters</a>
+      <a href="index.html#main">Main</a>
+      <a href="index.html#desert">Desert</a>
+      <a href="index.html#comment">Reviews</a>
+      <a href="login.html">Order Now</a>
+</nav>
+
+
+  <table class="table_cart">
+    <thead>
+      <tr class="table_cart--heading">
+        <th>
+          Products
+        </th>
+        <th>
+          Price
+        </th>
+        <th>
+          Qty
+        </th>
+        <th>
+          Cost
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="item-row">
+        <td >
+			Kakori Kebabs
+        </td>
+        <td>
+			<span class="item_price" data-price="100"> Rs. 100/-</span>
+        </td>
+        <td>
+          <input class="input_qty" name="quantity" value="0" min="-1">
+          <span class="add_qty"> + </span> <span class="remove_qty"> - </span>
+        </td>
+        <td class="item_cost">Rs.
+			<span  class="item-cost-val">  </span>/-
+        </td>
+      </tr>
+			 
+			 
+	 <tr id="product_item-2" class="item-row">
+        <td>
+			Stir Fried Chilli Chicken
+        </td>
+        <td>
+			<span class="item_price" data-price="190"> Rs. 190/-</span>
+        </td>
+        <td>
+          <input class="input_qty" name="quantity" value="0">
+          <span class="add_qty" > + </span> <span class="remove_qty"> - </span>
+        </td>
+        <td  class="item_cost">Rs.
+          <span class="item-cost-val">  </span>/-
+        </td>
+      </tr>
+         <tr id="product_item-3" class="item-row">
+        <td>
+      Cheese Balls
+        </td>
+        <td>
+      <span class="item_price" data-price="70"> Rs. 70/-</span>
+        </td>
+        <td>
+          <input class="input_qty" name="quantity" value="0">
+          <span class="add_qty" > + </span> <span class="remove_qty"> - </span>
+        </td>
+        <td  class="item_cost">Rs.
+          <span class="item-cost-val">  </span>/-
+        </td>
+      </tr>
+         <tr id="product_item-4" class="item-row">
+        <td>
+      Chicken Satay
+        </td>
+        <td>
+      <span class="item_price" data-price="100"> Rs. 100/-</span>
+        </td>
+        <td>
+          <input class="input_qty" name="quantity" value="0">
+          <span class="add_qty" > + </span> <span class="remove_qty"> - </span>
+        </td>
+        <td  class="item_cost">Rs.
+          <span class="item-cost-val">  </span>/-
+        </td>
+      </tr>
+         <tr id="product_item-5" class="item-row">
+        <td>
+      Lemon Chicken
+        </td>
+        <td>
+      <span class="item_price" data-price="300"> Rs. 300/-</span>
+        </td>
+        <td>
+          <input class="input_qty" name="quantity" value="0">
+          <span class="add_qty" > + </span> <span class="remove_qty"> - </span>
+        </td>
+        <td  class="item_cost">Rs.
+          <span class="item-cost-val">  </span>/-
+        </td>
+      </tr>
+         <tr id="product_item-6" class="item-row">
+        <td>
+      Dal Makhani
+        </td>
+        <td>
+      <span class="item_price" data-price="200"> Rs. 200/-</span>
+        </td>
+        <td>
+          <input class="input_qty" name="quantity" value="0">
+          <span class="add_qty" > + </span> <span class="remove_qty"> - </span>
+        </td>
+        <td  class="item_cost">Rs.
+          <span class="item-cost-val">  </span>/-
+        </td>
+      </tr>
+         <tr id="product_item-8" class="item-row">
+        <td>
+      Dum Paneer Kali Mirch
+        </td>
+        <td>
+      <span class="item_price" data-price="140"> Rs. 140/-</span>
+        </td>
+        <td>
+          <input class="input_qty" name="quantity" value="0">
+          <span class="add_qty" > + </span> <span class="remove_qty"> - </span>
+        </td>
+        <td  class="item_cost">Rs.
+          <span class="item-cost-val">  </span>/-
+        </td>
+      </tr>
+         <tr id="product_item-9" class="item-row">
+        <td>
+      Shahi Egg Curry
+        </td>
+        <td>
+      <span class="item_price" data-price="160"> Rs. 160/-</span>
+        </td>
+        <td>
+          <input class="input_qty" name="quantity" value="0">
+          <span class="add_qty" > + </span> <span class="remove_qty"> - </span>
+        </td>
+        <td  class="item_cost">Rs.
+          <span class="item-cost-val">  </span>/-
+        </td>
+      </tr>
+         <tr id="product_item-10" class="item-row">
+        <td>
+      Gujar Ka Halwa
+        </td>
+        <td>
+      <span class="item_price" data-price="100"> Rs. 100/-</span>
+        </td>
+        <td>
+          <input class="input_qty" name="quantity" value="0">
+          <span class="add_qty" > + </span> <span class="remove_qty"> - </span>
+        </td>
+        <td  class="item_cost">Rs.
+          <span class="item-cost-val">  </span>/-
+        </td>
+      </tr>
+         <tr id="product_item-11" class="item-row">
+        <td>
+      Shahid Tukda
+        </td>
+        <td>
+      <span class="item_price" data-price="200"> Rs. 200/-</span>
+        </td>
+        <td>
+          <input class="input_qty" name="quantity" value="0">
+          <span class="add_qty" > + </span> <span class="remove_qty"> - </span>
+        </td>
+        <td  class="item_cost">Rs.
+          <span class="item-cost-val">  </span>/-
+        </td>
+      </tr>
+         <tr id="product_item-12" class="item-row">
+        <td>
+      Gulab Jamun
+        </td>
+        <td>
+      <span class="item_price" data-price="60"> Rs. 60/-</span>
+        </td>
+        <td>
+          <input class="input_qty" name="quantity" value="0">
+          <span class="add_qty" > + </span> <span class="remove_qty"> - </span>
+        </td>
+        <td  class="item_cost">Rs.
+          <span class="item-cost-val">  </span>/-
+        </td>
+      </tr>
+         <tr id="product_item-13" class="item-row">
+        <td>
+      Aam Shri Akhand
+        </td>
+        <td>
+      <span class="item_price" data-price="50"> Rs. 50/-</span>
+        </td>
+        <td>
+          <input class="input_qty" name="quantity" value="0">
+          <span class="add_qty" > + </span> <span class="remove_qty"> - </span>
+        </td>
+        <td  class="item_cost">Rs.
+          <span class="item-cost-val">  </span>/-
+        </td>
+      </tr>
+    </tbody>
+		
+		
+		
+		
+		
+		
+		
+		<tfoot>
+    <tr>
+      <td>Sub Total</td>
+      <td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td >Rs. <span id="subtotal"> 0</span>/-</td>
+    </tr>
+			<tr>
+      <td>VAT 20%</td>
+      <td>&nbsp;</td>
+			<td>&nbsp;</td>
+				<td>Rs. <span id="total_vat"></span>/-</td>
+    </tr>
+     <tr>
+      <td>Shipping Charges</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+        <td>Rs. <span id="shipping_charges">59</span>/-</td>
+      </tr>
+			<tr class="table_cart--footer">
+			<th><strong>Total Cost</strong></th>
+      <td>&nbsp;</td>
+			<td>&nbsp;</td>
+				<th colspan='2'> <span id="total_cost">Rs</span>/-</th>
+			
+    </tr>
+  </tfoot>
+  </table>
+ 
+
+<br>
+<div class="ch">
+<p id="all"></p>
+<button onclick="myFunction()" id="checkout">Checkout</button>
+</div>
+
+<div class="outlet">
+<img src="51.png">
+<h1>Our Outlet</h1>
+<table>
+  <tr>
+    <th>
+      Chandigarg
+    </th>
+    <th>
+      Amritsar
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Delhi
+    </th>
+    <th>
+      Meerut
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Nanital
+    </th>
+    <th>
+      Jaipur
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Gwalior
+    </th>
+    <th>
+      Bhopal
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Indore
+    </th>
+    <th>
+      Varanasi
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Lucknow
+    </th>
+    <th>
+      Vadodara
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Patna
+    </th>
+    <th>
+      Mumbai
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Pune
+    </th>
+    <th>
+      Panaji
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Banglore
+    </th>
+    <th>
+      Kochi
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Coimbatore
+    </th>
+    <th>
+      Chennai
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Vijayawada
+    </th>
+    <th>
+      Visakhapatnam
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Hyderabad
+    </th>
+    <th>
+      Nagpur
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Bhilai
+    </th>
+    <th>
+      Raipur
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Ranchi
+    </th>
+    <th>
+      Kolkata
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Bhubhaneshwar
+    </th>
+    <th>
+      Gankok
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Shilong
+    </th>
+    <th>
+      Imphal
+    </th>
+  </tr>
+    <tr>
+    <th>
+      Aizwal
+    </th>
+    <th>
+      Agartala
+    </th>
+  </tr>
+</table>
+</div>
+<script>
+
+</script>
+</body>
+</html>

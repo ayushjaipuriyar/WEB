@@ -1,0 +1,141 @@
+body {
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+nav{
+	color: black;
+	width: 100%;
+	position: fixed;
+}
+nav a{
+	margin: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  animation: 3s ease;
+}
+h3 {
+  margin-bottom: 5px;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 1.7em 1.7em 1.7em;
+}
+
+.wrapper {
+  margin: 0px auto;
+  width: 70%;
+  background-color: #f2f2f2;
+  border-radius: 0 0 2px 2px;
+}
+
+header {
+  border-radius: 2px 2px 0 0;
+  background-color: #1C618C;
+  padding: 40px 0;
+}
+
+.search-area {
+  width: 50%;
+  margin: 0px auto;
+}
+
+input {
+  background: #f2f2f2;
+  float: left;
+  font-size: 1.2em;
+  padding: 1px 7px;
+  height: 40px;
+  width: calc(100% - 52px);
+  border: 0px;
+  //box-shadow: 0 0 1px rgba(0,0,0,.8) inset;
+  outline: none;
+}
+
+button {
+  color: #f2f2f2;
+  font-size: 1.2em;
+  float: left;
+  background: #efa12b;
+  padding: 0px;
+  width: 38px;
+  height: 42px;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  }
+
+button:hover {
+  background: #efaf2f;
+}
+
+.wiki-links {
+  padding: 1em 5%;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer a {
+  color: #efa12b;
+}
+
+#no-match {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*autocomplete.js*/
+.autocomplete-suggestions { border: 1px solid #999;
+background: #FFF;
+overflow: auto; 
+font-size: 1.2rem; 
+}
+.autocomplete-suggestion { padding: 2px 5px; 
+white-space: nowrap; overflow: hidden; 
+}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { 
+font-weight: normal; 
+color: #F0B12A; 
+}
+.autocomplete-group { padding: 2px 5px; }
+
+.autocomplete-group strong { display: block; 
+border-bottom: 1px solid #000; 
+}
+
+@media only screen and (max-width: 800px)
+{ 
+  
+  .wrapper {
+    width: 100%;
+  }
+  
+  .search-area {
+    width: 70%;
+  }
+  
+  ul {
+    width: 100%;
+  }
+  
+}

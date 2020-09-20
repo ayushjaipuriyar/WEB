@@ -1,0 +1,156 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.container{
+	height: 100%;
+	width: 100%; 
+	display: inline-flex;
+}
+.profile{
+	margin-top: 4.5%;
+	margin-left: 10%;
+	width: 80%;	
+	height: 80vh;
+	display: flex;
+	box-shadow: 6px 6px 6px lightgrey;
+	background: #fff;
+}
+.main{
+	height: 100%;	
+	width: 70%;
+	color: #000;
+}
+.side{
+	background:  black /*url(../Desktop/the_spectral_forest_by_generazart-dbv61qe.png)*/;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100%;
+	width: 30%;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+.side p{
+	margin-bottom: 10px;
+	position: absolute;
+}
+.top{
+	height: 36%;
+	width: 100%;
+	background-image: -webkit-linear-gradient(130deg, #013A6B 50%, #004E95 50%);
+}
+.user{
+	position: absolute;
+	top: 29%;
+	left: 58%;
+	height: 100px;
+	width: 100px;
+	background: url("logo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 100%;
+	border: 10px solid white;
+}
+.circle{
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  border: solid 2px black;
+  border-radius: 100%;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  background: #fff;
+}
+.circle:hover{
+	background: rgb(10,10,10);
+	border: solid 2px white;
+	transition: all ease 1s;
+} 
+.circle:hover .rect{
+	border: solid white 2px;
+	transition: all ease 1s;
+}
+.circle:hover .tri{
+	border-left: transparent solid 18.5px ;
+	border-right: transparent solid 18.5px ;
+	border-top: rgb(200,30,20) solid 20px ;
+	transition: all ease-out 1s;
+}
+.rect{
+  height: 30px;
+  margin-top:2px;
+  margin-left: 1px;
+  width: 36px;
+  border: solid 2px black;
+}
+.tri{
+  height: 0px;
+  width: 0px;
+  border-left: 18px solid transparent;
+  border-right: 18.5px solid transparent;
+  border-top: 20px solid rgb(20,20,100);
+}
+#n{
+	font-size: 15px;
+}
+#m{
+	font-size: 18px;
+}
+.line{
+	width: 75%;
+	margin-left: 15%;
+	height: 2px;
+	background: linear-gradient(to right , blue , red);
+	border-radius: 100%;
+}
+.c{
+  height: 30px;
+  width: 30px;
+  border: solid white 1px;
+  border-radius: 100%;
+  position: absolute;
+  top: 30%;
+  left: 21%;
+}
+.r{
+  text-align: center;
+  font-size: 27px;
+  color: white;
+}
+.c:hover{
+	color: black;
+	background: white;
+	border: solid black 1px;
+	transition: all ease 1s;
+}
+.c:hover .r{
+	color: black;
+	transition: all ease 1s;
+}.q{
+  height: 30px;
+  width: 30px;
+  border: solid white 1px;
+  border-radius: 100%;
+  position: absolute;
+  top: 42%;
+  left: 21%;
+}
+.w{
+  text-align: center;
+  font-size: 27px;
+  color: white;
+}
+.q:hover{
+	color: black;
+	background: white;
+	border: solid black 1px;
+	transition: all ease 1s;
+}
+.q:hover .w{
+	color: black;
+	transition: all ease 1s;
+}
