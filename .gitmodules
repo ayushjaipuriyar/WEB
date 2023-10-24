@@ -1,0 +1,42 @@
+[submodule "hyperloop"]
+	path = hyperloop
+	url = git@github.com:ayushjaipuriyar/hyperloop.git
+[submodule "web_Battle_Royal"]
+	path = web_Battle_Royal
+	url = git@github.com:ayushjaipuriyar/web_Battle_Royal.git
+[submodule "web_bhojan"]
+	path = web_bhojan
+	url = git@github.com:ayushjaipuriyar/web_bhojan.git
+[submodule "web_Wallox-Ayush-DPSN"]
+	path = web_Wallox-Ayush-DPSN
+	url = git@github.com:ayushjaipuriyar/web_Wallox-Ayush-DPSN.git
+[submodule "web_core"]
+	path = web_core
+	url = git@github.com:ayushjaipuriyar/web_core.git
+[submodule "web_delhi"]
+	path = web_delhi
+	url = git@github.com:ayushjaipuriyar/web_delhi.git
+[submodule "web_hyperloop"]
+	path = web_hyperloop
+	url = git@github.com:ayushjaipuriyar/web_hyperloop.git
+[submodule "web_login"]
+	path = web_login
+	url = git@github.com:ayushjaipuriyar/web_login.git
+[submodule "web_posts"]
+	path = web_posts
+	url = git@github.com:ayushjaipuriyar/web_posts.git
+[submodule "web_profile"]
+	path = web_profile
+	url = git@github.com:ayushjaipuriyar/web_profile.git
+[submodule "web_school"]
+	path = web_school
+	url = git@github.com:ayushjaipuriyar/web_school.git
+[submodule "web_Technol"]
+	path = web_Technol
+	url = git@github.com:ayushjaipuriyar/web_Technol.git
+[submodule "web_wave"]
+	path = web_wave
+	url = git@github.com:ayushjaipuriyar/web_wave.git
+[submodule "web_wikipedia"]
+	path = web_wikipedia
+	url = git@github.com:ayushjaipuriyar/web_wikipedia.git
